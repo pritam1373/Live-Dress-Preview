@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   
+        #container{
+            width: 100vw;
+            height: 900px;
+            /* border: 1px solid black; */
+           
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+      
+         #head{
+          width: 300px;
+          height: 100px;
+          border: 5px solid black;
+          margin: auto;
+          font-size: 35px;
+          margin: 30px;
+          text-align: center;
+          border-radius: 20px;
+          
+         }
+         
+         #fi{
+         position: relative;
+         top: 025px;
+         left: 80px;
+         }
+        #photo{
+          width: 250px;
+          height: 250px;
+        margin-left: 90px;
+     
+        opacity: 1;
+        z-index: 1;
+        position: relative;
+        top: 130px;
+        left: -20px;
+       
+        }
+        #fi{
+            width: 100px;
+            height: 30px;
+            border: 2px solid black;
+            background-color: yellow;
+            opacity: 0;
+            position: relative;
+            top: 100px;
+            left: 120px;
+            z-index: 10;
+            
+        }
+        #ovi{
+            width: 120px;
+            height: 30px;
+            border: 2px solid blue;
+            background-color: rgb(218, 218, 63);
+            opacity: 1;
+            position: relative;
+            text-align: center;
+        
+            top: 100px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 900;
+            color: rgb(6, 6, 92);
+        }
+        #pritam{
+            width: 250px;
+            height: 270px;
+            
+            position: relative;
+            top: -134px;
+            left: 70px;
+           
+            background: transparent;
+            opacity: 1;
+            z-index: 2;
+
+            
+        }
+        #box100{
+            width: 350px;
+            height: 90px;
+            /* border: 1px solid black; */
+            font-size: 30px;
+            color: rgba(124, 3, 3, 0.934);
+            font-weight: 500;
+            text-align: center;
+        }
+        #dw{
+            width: 100px;
+            height: 40px;
+            border-radius: 40px;
+            background-color: orange;
+            text-align: center;
+            color: rgb(65, 65, 217);
+            font-weight: 700;
+            position: relative;
+            top: -100px;
+            left: 120px;
+        }
+    </style>
+</head>
+<body>
+  <Header id="head">Live preview Clothing Customizer</Header>
+    <div id="container">
+      
+      <input type="file" id="fi">
+       <div id="ovi">Click Here</div>
+       <Div id="box100">Select a fabric Design Photo</Div>
+         
+          <div id="ib1" class="chobi"><img src="" alt="" id="photo" > </div>
+
+        
+ <img src="IMG_20250625_181602.png" alt="" id="pritam">
+
+   
+
+         <script src="scripts.js"></script>
+ 
+         
+</body>
+</html>
